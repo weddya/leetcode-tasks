@@ -23,7 +23,7 @@ Each problem has its own directory with the following structure:
 problems/
 └──problem-name/            # Problem slug (e.g., two-sum)
     ├── Solution.php        # PHP implementation
-    ├── SolutionTest.php   # PHP tests (PHPUnit)
+    ├── SolutionTest.php    # PHP tests (PHPUnit)
     ├── solution.go         # Go implementation
     ├── solution_test.go    # Go tests (standard/testing or testify)
     └── README.md           # Problem link and additional notes
@@ -90,6 +90,6 @@ go test ./...
 The source code in this repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Important Notes:**
-- Problem statements and descriptions are copyrighted by [LeetCode](https://leetcode.com)
+- Problem statements and descriptions are copyrighted by [LeetCode](https://leetcode.com) and not covered by this license
 - This repository contains personal solutions for educational purposes only
 - All LeetCode problem links reference original content on leetcode.com
