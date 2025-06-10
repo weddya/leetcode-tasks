@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "classmap": ["problems/"]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "scripts": {
+    "test:all": "phpunit --testdox problems/",
+    "test": "phpunit"
+  }
+}
