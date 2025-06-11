@@ -6,3 +6,6 @@
 
 /go.sum
 *.test
+
+*.out
+coverage.*
