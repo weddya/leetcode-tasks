@@ -1,12 +1,14 @@
 {
   "autoload": {
-    "classmap": ["problems/"]
+    "psr-4": {
+      "Problem\\": "problems/php/"
+    }
   },
   "require-dev": {
     "phpunit/phpunit": "^10"
   },
   "scripts": {
-    "test:all": "phpunit --testdox problems/",
+    "test:all": "phpunit --testdox problems/php/",
     "test": "phpunit"
   }
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Problem\TwoSum;
+
 class Solution {
 
     /**

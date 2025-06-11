@@ -21,12 +21,17 @@ This repository contains my solutions to LeetCode problems, implemented in **PHP
 Each problem has its own directory with the following structure:
 ```
 problems/
-└──problem-name/            # Problem slug (e.g., two-sum)
-    ├── Solution.php        # PHP implementation
-    ├── SolutionTest.php    # PHP tests (PHPUnit)
-    ├── solution.go         # Go implementation
-    ├── solution_test.go    # Go tests (standard/testing or testify)
-    └── README.md           # Problem link and additional notes
+├── go/                 # Go solutions organized by problem
+│   └── problem-name/
+│       ├── README.md           # Problem link and additional notes
+│       ├── solution.go         # Go implementation
+│       └── solution_test.go    # Go tests (standard/testing or testify)
+│
+└── php/                # PHP solutions organized by problem
+    └── ProblemName/
+        ├── README.md           # Problem link and additional notes
+        ├── Solution.php        # PHP implementation
+        └── SolutionTest.php    # PHP tests (PHPUnit)
 ```
 
 
@@ -47,7 +52,7 @@ composer install
 
 2. Run tests for specific problem:
 ```bash
-composer test problems/two-sum/SolutionTest.php
+composer test problems/php/TwoSum/SolutionTest.php
 ```
 
 3. Run all tests:
@@ -63,7 +68,7 @@ go get github.com/stretchr/testify
 
 2. Run tests for specific problem:
 ```bash
-go test ./problems/two-sum
+go test ./problems/go/two-sum
 ```
 
 3. Run all tests:

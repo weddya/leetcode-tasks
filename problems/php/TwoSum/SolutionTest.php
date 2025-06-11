@@ -1,4 +1,7 @@
 <?php
+
+namespace Problem\TwoSum;
+
 use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
