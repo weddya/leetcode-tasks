@@ -79,10 +79,11 @@ go test ./...
 
 ## 📊 Progress Tracking
 
-| ID  | Problem | Difficulty | PHP | Go | Link |
-|-----|---------|------------|-----|----|------|
-| 1 | Two Sum | Easy | ✅ | ✅ | [View](problems/two-sum) |
-| ... | ... | ... | ... | ... | ... |
+| ID  | Problem | Difficulty | PHP | Go | Link                                                                        |
+|-----|---------|------------|-----|----|-----------------------------------------------------------------------------|
+| 1   | Two Sum | Easy | ✅ | ✅ | [PHP](problems/php/TwoSum) \| [Go](problems/go/two-sum)                     |
+| 9   | Palindrome Number | Easy | ✅ | ✅ | [PHP](problems/php/PalindromeNumber) \| [Go](problems/go/palindrome-number) |
+| ... | ... | ... | ... | ... | ...                                                                         |
 
 **Status Legend:**  
 ✅ - Complete with tests  
