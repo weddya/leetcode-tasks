@@ -1,4 +1,15 @@
 {
+  "name": "weddya/leetcode-tasks",
+  "description": "LeetCode solutions portfolio (Go + PHP)",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksander Lepeshkin",
+      "email": "weddya@ya.ru"
+    }
+  ],
+  "homepage": "https://github.com/ваш-репозиторий",
+
   "autoload": {
     "psr-4": {
       "Problem\\": "problems/php/"

@@ -4,7 +4,6 @@
 /vendor/
 .phpunit.result.cache
 
-/go.sum
 *.test
 
 *.out
