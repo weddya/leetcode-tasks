@@ -79,12 +79,13 @@ go test ./...
 
 ## 📊 Progress Tracking
 
-| ID | Problem | Difficulty | PHP | Go | Link                                                                        |
-|----|---------|------------|-----|----|-----------------------------------------------------------------------------|
-| 1  | Two Sum | Easy | ✅ | ✅ | [PHP](problems/php/TwoSum) \| [Go](problems/go/two-sum)                     |
-| 9  | Palindrome Number | Easy | ✅ | ✅ | [PHP](problems/php/PalindromeNumber) \| [Go](problems/go/palindrome-number) |
-| 14 | Longest Common Prefix | Easy | ✅ | ✅ | [PHP](problems/php/LongestCommonPrefix) \| [Go](problems/go/longest-common-prefix) |
-| ... | ... | ... | ... | ... | ...                                                                         |
+| ID  | Problem | Difficulty | PHP | Go | Link                                                                        |
+|-----|---------|--------|-----|----|-----------------------------------------------------------------------------|
+| 1   | Two Sum | Easy   | ✅ | ✅ | [PHP](problems/php/TwoSum) \| [Go](problems/go/two-sum)                     |
+| 9   | Palindrome Number | Easy   | ✅ | ✅ | [PHP](problems/php/PalindromeNumber) \| [Go](problems/go/palindrome-number) |
+| 12  | Integer to Roman | Medium | ✅ | ❌ | [PHP](problems/php/IntegerToRoman) |
+| 14  | Longest Common Prefix | Easy   | ✅ | ✅ | [PHP](problems/php/LongestCommonPrefix) \| [Go](problems/go/longest-common-prefix) |
+| ... | ... | ...    | ... | ... | ...                                                                         |
 
 **Status Legend:**  
 ✅ - Complete with tests  
