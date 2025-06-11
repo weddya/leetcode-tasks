@@ -8,7 +8,7 @@
       "email": "weddya@ya.ru"
     }
   ],
-  "homepage": "https://github.com/ваш-репозиторий",
+  "homepage": "https://github.com/weddya/leetcode-tasks/",
 
   "autoload": {
     "psr-4": {
