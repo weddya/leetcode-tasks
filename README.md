@@ -85,6 +85,7 @@ go test ./...
 | 9   | Palindrome Number | Easy   | ✅ | ✅ | [PHP](problems/php/PalindromeNumber) \| [Go](problems/go/palindrome-number) |
 | 12  | Integer to Roman | Medium | ✅ | ❌ | [PHP](problems/php/IntegerToRoman) |
 | 14  | Longest Common Prefix | Easy   | ✅ | ✅ | [PHP](problems/php/LongestCommonPrefix) \| [Go](problems/go/longest-common-prefix) |
+| 20  | Valid Parentheses | Easy   | ✅ | ✅ | [PHP](problems/php/ValidParentheses) \| [Go](problems/go/valid-parentheses) |
 | ... | ... | ...    | ... | ... | ...                                                                         |
 
 **Status Legend:**  
