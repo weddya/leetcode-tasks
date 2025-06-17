@@ -86,6 +86,7 @@ go test ./...
 | 12  | Integer to Roman | Medium | ✅ | ❌ | [PHP](problems/php/IntegerToRoman) |
 | 14  | Longest Common Prefix | Easy   | ✅ | ✅ | [PHP](problems/php/LongestCommonPrefix) \| [Go](problems/go/longest-common-prefix) |
 | 20  | Valid Parentheses | Easy   | ✅ | ✅ | [PHP](problems/php/ValidParentheses) \| [Go](problems/go/valid-parentheses) |
+| 21  | Merge Two Sorted Lists | Easy | ✅ | ❌ | [PHP](problems/php/MergeTwoSortedLists) |
 | ... | ... | ...    | ... | ... | ...                                                                         |
 
 **Status Legend:**  
