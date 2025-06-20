@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestLongestCommonPrefix(t *testing.T) {
 	assert.Equal(t, "fl", longestCommonPrefix([]string{"flower", "flow", "flight"}))
 	assert.Equal(t, "", longestCommonPrefix([]string{"dog", "racecar", "car"}))
 }

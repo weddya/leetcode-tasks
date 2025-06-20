@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestIsValid(t *testing.T) {
 	assert.True(t, isValid("()"))
 	assert.True(t, isValid("()[]{}"))
 	assert.False(t, isValid("(]"))

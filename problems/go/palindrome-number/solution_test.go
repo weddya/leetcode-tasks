@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestIsPalindrome(t *testing.T) {
 	assert.True(t, isPalindrome(121))
 	assert.False(t, isPalindrome(-121))
 	assert.False(t, isPalindrome(10))
